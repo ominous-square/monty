@@ -3,14 +3,9 @@ The programs in this repo make up the **monty program** and are used to interpre
 
 ## The Monty Language
 Monty 0.98 is a scripting language that is first compiled into Monty byte codes (Just like Python). It relies on a unique stack, with specific instructions to manipulate it. The goal of this project is to create an interpreter for Monty ByteCodes files.
-Files containing Monty byte codes usually have the .m extension and are contained in the [bytecodes](https://github.com/devmutinda/monty/tree/main/bytecodes) directory of this repo. There is not more than one instruction per line. There can be any number of spaces before or after the opcode and its argument:\
-\
-![image](https://user-images.githubusercontent.com/96857630/174581224-7f3c44be-0bcf-4981-aa78-1f2d8ca2b0b4.png)
-
 
 Monty byte code files can contain blank lines (empty or made of spaces only, and any additional text after the opcode or its required argument is not taken into account:\
-\
-![image](https://user-images.githubusercontent.com/96857630/174581334-7d65879d-26dd-4c69-b8cb-79ecd23e0e9a.png)
+
 
 
 ## The Monty Program
@@ -44,16 +39,3 @@ Once the monty program is compiled, it's executed on the terminal as shown below
 ```
 ./monty <filename>
 ```
-
-### Sample output
-The contents of the monty file are shown below:\
-\
- ![image](https://user-images.githubusercontent.com/96857630/174581714-aeb037a4-06f4-417c-bf17-476a573bff30.png)
-\
-\
- The dotted lines from the image below have been used to separate the `pall` opcode output results\
- \
-![image](https://user-images.githubusercontent.com/96857630/174582391-8b8142cb-bfbf-4a54-a9a9-db340ac8336d.png)
-
-
- 
